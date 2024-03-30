@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<input type="number" id="counterInput" value="0">
+<button id="incrementBtn">+</button>
+<button id="decrementBtn">-</button>
+<button id="resetBtn">Сбросить</button>
+</body>
+
+<div class="traffic-light">
+<div class="light red" onclick="showMessage('Стоп')"></div>
+<div class="light yellow" onclick="showMessage('Готовься')"></div>
+<div class="light green" onclick="showMessage('Иди')"></div>
+</div>
+<p id="message"></p>
+<script src="app/main.js"></script>
+</html>
